@@ -55,3 +55,16 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IPython Notebooks
+*.ipynb_checkpoints/
+*.ipynb
+
+# PyCharm
+.idea/
+
+# Data
+*.txt
+*.pkl
+*.csv
+data/raw/

@@ -29,3 +29,4 @@ reviews_full.drop(['timestamp', 'title', 'release',
 
 outpath = os.path.abspath(os.path.join(basepath, "..", "data", "prepped", "reviews_100k.csv"))
 reviews_full.to_csv(outpath)
+print "done."
